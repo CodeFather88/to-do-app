@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+ 
+.task{  
+  margin:15px 15px 15px 15px;  
+  padding: 40px;
+  background-color:#ffffff;
+  border-radius: 10px; 
+  display: flex; 
+  padding: 15px;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.task_title{
+  font-family: 'Joan', serif;
+  font-size: 40px;
+  color: #1976d2;
+  font-weight: bold;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.task_txt{
+  display:flex;
+  justify-content: left;
+  font-family: 'Joan', serif;
+  font-size: 30px;
+  color: #1976d2;
+  align-items: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.AddTaskForm{
+  margin: 15px 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
 }
+body{
+  background-color: rgba(134, 184, 241, 0.705);
+}
+
+ .textfield{
+   background-color: white;
+ }
