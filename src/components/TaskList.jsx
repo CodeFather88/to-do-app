@@ -15,12 +15,9 @@ const TaskList = (props) => {
     <div>
         {props.tasks.map((task,index)=>(//перебираем массив и ловим из него задачи по-отдельности, потом передаем в Task и отображаем в этом же листе
           
-          <Task number={index+1} task={task} key ={task.id} completed={completed}/>
-        ))
+          <Task number={index+1} task={task} key ={task.id}/>
+        ))}
         
-        
-
-        }
     </div>
   )
 }
